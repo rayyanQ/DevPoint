@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,100);
+body{
+	padding:0px;
+	margin:0px;
+	font-family: Raleway;
+}
+header{
+	background: #6fdc6f;
+	height: 15vh;
+	width: 100vw;
+	color: #fff;
+	line-height: 15vh;
+	position: fixed;
+	border-bottom: 2px solid #fff;
+}
+.glass{
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+#login_box{
+	position: fixed;
+	height: 65vh;
+	width: 35vw;
+	background: #fff;
+	border: 2px solid #359c35;
+	margin: 10vh 30vw;
+	display: none;
+	padding: 5vw;
+	font-size: 2em;
+	color: #359c35;
+}
+#body{
+	padding-top: 15vh;
+}
+#logo{
+	padding-left: 5vw;
+	font-size: 1.5em;
+}
+.sub_txt{
+	float: right;
+	font-size: 1em;
+	padding-right: 5vw;
+}
+.sub_txt:hover{
+	cursor: pointer;
+}
+#main{
+	padding: 10vh 10vh;
+	font-size: 2em;
+	height: 65vh;
+}
+.cat_img{
+	float: left;
+}
+.cat_img img{
+	height: 10vh;
+	width: 10vh;
+}
+.cat_txt{
+	height: 10vh;
+	float: left;
+	line-height: 10vh;
+	padding-left: 5vh;
+	color: #555;
+}
+#sign_up{
+	float: right;
+	border: 2px solid #6fdc6f;
+	border-radius: 10px;
+	height: 55vh;
+	width: 40vw;
+	padding: 5vh;
+	color: #359c35;
+}
+.txt{
+	width: 30vw;
+	height: 5vh;
+	padding-left: 5vh;
+	font-family: Raleway;
+}
+.txt:focus{
+	outline: none;
+}
+.but{
+	margin-top: 5vh;
+	background: #fff;
+	border: 1px solid #555;
+	color: #555;
+	font: 1em Raleway;
+}
+.but:hover {
+	color: #359c35;
+	border-color: #359c35;
+}
+#learn{
+	height: 80vh;
+	background: #6fdc6f;
+	color: #fff;
+	padding-top: 10vh;
+	font-size: 2em;
+}
+.lcp{
+	height: 40vh;
+}
+#create{
+	height: 80vh;
+	background: #fff;
+	color: #6fdc6f;
+	font-size: 2em;
+}
+#publish{
+	height: 80vh;
+	background: #6fdc6f;
+	color: #fff;
+	font-size: 2em;
+}
+footer{
+	height: 15vh;
+	line-height: 15vh;
+	color: #6fdc6f;
+}

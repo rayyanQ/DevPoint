@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>developers point</title>
+		<link rel="stylesheet" type="text/css" href="css/sign_up.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/sign_up.js"></script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+	<body>
+		<header>
+			<a href="index.php" id="logo">DevXoon</a>
+		</header>
+		<div id="body">
+			<center>
+				<br>
+				<h2>Sign Up</h2>
+				<p id="error"></p>
+				<form method="post" id="about">
+					<input class="txt" name="email" type="email" placeholder="Email *" required="required"><br><br>
+					<input class="txt" name="fname" type="text" placeholder="First Name *" required="required"><br><br>
+					<input class="txt" name="lname" type="text" placeholder="Last Name"><br><br>
+					Gender:<input type="radio" name="gender" title="male" id="male" name="gender" value="male"><label for="male">male</label> &nbsp; 
+    				<input type="radio" name="gender" title="female" id="female" name="gender" value="female"><label for="female">female</label> &nbsp;
+    				<input type="radio" name="gender" title="other" id="other" name="gender" value="other"><label for="other">other</label><br><br>
+    				Birthday : <input type="date" name="bday" title="birthday"><br><br>
+    				<input class="txt" name="password" type="password" placeholder="Password *" required="required"><br><br>
+    				<div class="g-recaptcha" data-sitekey="6LfGFR4TAAAAALYIx-FwTU058134dFotYW64CIn_"></div>
+    				<input type="submit" class="but" id="submit" value="Submit">
+    				<br>
+				</form>
+			</center>
+		</div>
+	</body>
+</html>

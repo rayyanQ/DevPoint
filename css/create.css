@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,100);
+body{
+	padding:0px;
+	margin:0px;
+	font-family: Raleway;
+	background: #f5f5f5;
+	overflow-x: hidden;
+}
+header{
+	background: #6fdc6f;
+	height: 10vh;
+	width: 100vw;
+	color: #fff;
+	line-height: 10vh;
+	position: fixed;
+	border-bottom: 2px solid #fff;
+}
+#logo{
+	padding-left: 5vw;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #fff;
+}
+.sub_txt{
+	float: right;
+	font-size: 1em;
+	padding-right: 5vw;
+	text-decoration: none;
+	color: #fff;
+}
+.sub_txt:hover{
+	text-decoration: underline;
+}
+#body{
+	padding-top: 10vh;
+}
+#projects{
+	height: 90vh;
+	width: 20vw;
+	float: left;
+	background: #fff;
+}
+#projects_head{
+	font-size: 1.5em;
+	line-height: 10vh;
+}
+.files{
+	font-size: 1em;
+	line-height: 8vh;
+	color: #000;
+}
+#edit_bar{
+	float: left;
+	width: 70vw;
+	height: 5vh;
+	margin: 5vh 0vh 0vh 8vh;
+	background: #fff;
+	line-height: 5vh;
+}
+.edit_items{
+	padding-left: 2vw;
+	color: #6fdc6f;
+}
+#editer{
+	float: left;
+	height: 75vh;
+	width: 70vw;
+	margin: 5vh 0vh 0vh 8vh;
+	background: #fff;
+}
+footer{
+	height: 10vh;
+	line-height: 10vh;
+	float: left;
+	background: #6fdc6f;
+	width: 100vw;
+}

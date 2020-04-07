@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,100);
+body{
+	padding:0px;
+	margin:0px;
+	font-family: Raleway;
+	background: #fff;
+	overflow-x: hidden;
+}
+header{
+	background: #6fdc6f;
+	height: 10vh;
+	width: 100vw;
+	color: #fff;
+	line-height: 10vh;
+	position: fixed;
+	border-bottom: 2px solid #fff;
+}
+#logo{
+	padding-left: 5vw;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: #fff;
+}
+.sub_txt{
+	float: right;
+	font-size: 1em;
+	padding-right: 5vw;
+	text-decoration: none;
+	color: #fff;
+}
+.sub_txt:hover{
+	text-decoration: underline;
+}
+#body{
+	padding-top: 10vh;
+}
+#stats{
+	height: 90vh;
+	width: 95vw;
+	border-left: 0px solid #ccc;
+	float: left;
+}
+.stat_box{
+	height: 25vh;
+	width: 95vw;
+	border-bottom: 1px solid #ccc;
+	padding-top: 5vh;
+	padding-left: 2vw;
+}
+.circle{
+	width: 16vh;
+	height: 16vh;
+	border: 1px solid #ccc;
+	border-radius: 8vh;
+	margin-left: 2vw;
+	font-size: 5em;
+	line-height: 16vh;
+	color: #ccc;
+}
+.circle:hover{
+	border: 1px solid #6fdc6f;
+	color: #6fdc6f;
+}
+footer{
+	height: 10vh;
+	line-height: 10vh;
+	color: #6fdc6f;
+	background: #6fdc6f;
+	float: left;
+	width: 100vw;
+}
